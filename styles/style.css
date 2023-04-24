@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Nunito Sans, Arial;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header {
+    background-color: black;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border: 0;
+    border-radius: 2px;
+    outline: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo {
+    color: #E3B873;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation_item {
+    margin-right: 47px;
+    text-transform: uppercase;
+}
+
+.header-navigation_item a {
+    text-decoration: none;
+    color: white;
+}
